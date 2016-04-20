@@ -1,0 +1,13 @@
+{"menu": {
+    "title" : "JSON",
+    "desc"  : "Esto es un archivo .json, sirve para guardar información y poder utilizarla en diferentes plataformas",
+    "id": "file",
+    "value": "File",
+    "popup": {
+    "menuitem": [
+        {"nombre": "salchichas", "valor": 20, "peso" : "5kg"},
+        {"nombre": "hamburguesas", "valor": 40, "peso" : "10kg"},
+        {"nombre": "papas fritas", "valor": 30, "peso" : "7kg"}
+    ]
+  }
+}}

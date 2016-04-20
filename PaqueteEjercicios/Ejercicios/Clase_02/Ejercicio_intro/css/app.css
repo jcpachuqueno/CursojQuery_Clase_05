@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cuadro {
+    width: 90vw;
+    height: 20vh;
+    background: rgb(99, 190, 220);
+    border: 3px solid rgb(240, 140, 160);
+    margin: 5px;
+    text-align: center;
+    font-size: 66px;
+    line-height: 20vh;
+    color: ghostwhite;
+}

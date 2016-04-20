@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #444;
+}
+
+#container {
+    display: table;
+}
+
+.cuadro {
+    width: 100px;
+    height: 100px;
+    box-shadow: inset 0 0 0 3px #CCC;
+    display: inline-block;
+    
+    color: #EEE;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    
+    transition: all .5s;
+    
+}

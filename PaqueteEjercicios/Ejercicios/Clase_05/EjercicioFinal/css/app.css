@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+    transform-origin: 0px 0px 0px;
+    box-sizing: content-box;
+}
+
+body {
+    background: rgb(250, 250, 250);
+    /*box-shadow: inset 0px 0px 0px 5px rgb(33, 103, 153);*/
+    height: 100vh;
+    background: rgb(250, 250, 250);
+    color: rgb(173, 173, 173);
+    background: rgb(245, 245, 245);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+}
+
+#container {
+    max-width: 1024px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    height: 18vh;
+    letter-spacing: .5px;
+    font-family: 'Rambla', sans-serif;
+    font-weight: 400;
+    width: 100%;    
+}
+
+header #headerContainer {
+    max-width: 960px;
+    display: block;
+    margin: 0px auto;
+    height: 14vh;
+    padding-top: 1vh;    
+}
+
+header #logoContainer {
+    width: 25%;
+    display: inline-block;
+}
+
+header #logo {
+    max-width: 55px;
+    width: 100%;
+    padding: 14px;
+    display: block;
+    margin: 0 auto;
+}
+
+header #logo img {
+    width: 100%;
+}
+
+#nav {
+    display: inline-block;
+    width: 70%;
+}
+
+#nav ul {
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+}
+
+#nav ul li {
+    display: block;
+    float: left;    
+    margin: 2px;
+    padding: 8px;
+    padding-left: 14px; 
+    background: rgb(255, 255, 255);
+    border-left: 2px solid #DDD;
+    border-bottom: 1px solid #CCC;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+#nav ul li a {
+    color: rgb(220, 220, 220);
+    line-height: 40px;
+    font-size: 13px;
+}
+
+#dataContainer {
+    margin-top: 8rem;
+}
+
+#inicio {
+    width: 90%;
+    font-size: 1.8em;
+    display: flex;
+    margin: 0 auto;
+    min-height: 100vh;    
+}
+
+#inicio div {
+    
+}
+
+#inicioTitle {
+    max-width: 420px;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 32px;
+}
+
+#display {
+    height: 17rem;    
+    width: 30rem;
+}
+
+
+#social {
+    margin-top: 2rem;
+}
+
+#social img {
+    display: inline;
+    max-width: 30px;
+    transition: all .2s;
+}
+
+#areas {
+    margin-top: 1rem;
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 8vh;
+    display: block;
+    height: 20rem;
+    min-height: 100vh;
+}
+
+#areas .fondo-full {
+    background: rgb(77, 77, 77);
+    height: 20rem;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    padding-top: 2vh;
+    min-height: 100vh;
+}
+
+#areasTitle {
+    font-size: 60px;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 30px;
+    color: #444;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+#areasContainer {
+    margin-top: 5vh;    
+    display: flex;
+}
+
+.area-cuadro {
+    width: 30%;
+    max-width: 30%;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    height: 30vh;
+    color: rgb(233, 233, 233);
+    background: rgba(93, 93, 93, .8);
+    margin: 2px;
+    padding-top: 10px;
+    padding-bottom: 10rem;
+}
+
+.code {
+    font-size: 12px;
+}
+
+.area-cuadro p {
+    height: 80px;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(170, 170, 170);
+}
+
+.area-cuadro img {
+    max-width: 70px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.data-title {
+    height: 110px;
+    font-size: 1.8em;
+    color: rgb(99, 99, 99);
+}
+
+#serviciosTitle {
+    font-size: 60px;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 30px;
+    color: rgb(220, 220, 220);
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.data-title p {
+    padding-top: 2rem;
+    border-bottom: 2px solid rgb(233, 233, 233);
+    width: 120px;
+    padding-bottom: 7px;
+    display: block;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.data-title .fondo-full {
+    background: rgb(245, 245, 245);
+    height: 100px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    padding-top: 2vh;
+}
+
+#serviciosSection .fondo-full {
+    background: rgb(245, 245, 245);
+}
+
+#bases {
+    color: rgb(47, 60, 70);
+}
+
+#bases p {
+    border-bottom: 2px solid rgb(47, 60, 70);
+}
+
+
+#bases .fondo-full {
+    background: rgb(243, 243, 243);
+}
+
+
+
+.data-div {
+    width: 94%;
+    margin: 0 auto;
+    display: block;
+    border-top: 1px solid rgba(233, 233, 233, 0);
+}
+
+
+.data-div .fondo-full {
+    left: 0;
+    right: 0;
+    z-index: -1;
+    padding-top: 2vh;
+    height: 100vh;
+    background: rgb(245, 245, 245);  
+}
+
+.data-div .info-container {
+    display: block;
+    z-index: 3;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    display: flex;
+}
+
+.data-div .info-container .info-image {
+    width: 45%;
+}
+
+.data-div .info-container .info-image img {
+    max-width: 160px;
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    margin-top: 16%;
+    opacity: .5;
+}
+
+.data-div .info-container .info {
+    padding: 12px;
+    color: rgb(210, 210, 210);
+    border-left: 4px solid rgb(220, 220, 220);
+}
+
+.data-div:nth-child(odd) .info-container .info {
+    border-left: 4px solid rgb(188, 188, 188);    
+    color: rgb(199, 199, 199);
+}
+
+.data-div:nth-child(odd) .info-container .info .info-titulo {
+    color: #CCC;
+}
+
+.info-container .info .info-titulo {
+    font-family: 'Rambla', sans-serif;
+    font-size: 2em;
+    color: #CCC;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.info-data-container {
+    padding: 10px;
+}
+
+.info-data-container .info-data {    
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#nosotrosTitle {
+    font-size: 60px;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 30px;
+    color:#444;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.empresa-div {
+    width: 94%;
+    margin: 0 auto;
+    display: block;
+    min-height: 100vh;
+    border-top: 1px solid rgba(233, 233, 233, 0);
+}
+
+.empresa-div .fondo-full {
+    left: 0;
+    min-height: 100vh;
+    right: 0;
+    z-index: -1;
+    padding-top: 2vh;
+    height: 160vh;
+    background: rgb(77, 77, 77);  
+}
+
+#valores {
+    display: flex;
+    margin-top: 40px;
+}
+
+#valores div {
+    width: 32%;
+    text-align: center;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#valores div:nth-child(even) {
+    background: rgb(220, 220, 220);
+}
+
+#valores div:nth-child(even) p {
+    color: #BBB;
+}
+
+#valores p {
+    color: #666;
+    font-weight: bold;   
+    line-height: 80px;     
+}
+
+#profesional {
+    font-size: 1.2em;
+    font-weight: 400;
+    max-width: 480px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    line-height: 30px;
+    color: #777;
+}
+
+#eficiencia {
+    text-align: center;
+    font-size: large;
+}
+
+#codigoLimpio {
+    text-align: center;
+    font-size: large;
+}
+
+.filosofia {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    color: rgb(99, 99, 99);
+    line-height: 40px;    
+}
+
+.filosofia p {
+    padding: 8px;
+}
+
+#mensaje {
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: .8em;
+    line-height: 25px;
+    font-weight: 300;
+    padding: 5px;
+    border-top: 5px solid rgb(99, 99, 99);
+    padding-top: 22px;
+    padding-bottom: 30px;
+    color: #777;
+}
+
+.cita {
+    text-align: right;
+    font-size: smaller;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #aaa;
+}
+
+.blink {
+    animation: blink .4s linear infinite alternate;
+}
+
+footer {
+    margin-top: 5rem;
+    min-height: 300px;
+}
+
+footer .fondo-full {
+    left: 0;
+    right: 0;
+    z-index: -1;
+    padding-top: 2vh;
+    min-height: 70vh;
+    background: rgb(55, 55, 55); 
+}
+
+footer .footer-data {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+#footerImg {
+    max-width: 80px;
+    display: block;
+}
+
+#footerImg img {
+    width: 100%;
+}
+
+#footer-info {
+    display: table;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 12px;
+    width: 90%;
+}
+
+.footer-section {
+    max-width: 220px;
+    width: 28%;
+    display: table-cell;
+}
+
+#socialF {
+    display: flex;
+}
+
+#socialF a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 4px;
+}
+
+#socialF img {
+    max-width: 20px;
+    transition: all .2s;
+}
+
+.footer-title {
+    font-size: 14px;
+    color: #555;
+    padding: 3px;
+}
+
+.footer-brand {
+    padding: 8px;
+    line-height: 20px;
+}
+
+.footer-brand a {
+    color: #777;
+}
+
+.separador {
+    min-height: 140px;
+}
+
+.separador .fondo-full {
+    background: rgb(90, 80, 90);
+    height: 140px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    padding-top: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(12, 60, 90);
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.oscura {
+    font-weight: bolder;
+}
+
+.fondo-full {
+    position: absolute;
+}
+
+.software {
+    color: #444;
+}
+
+#contenido {
+    min-height: 100vh;
+}
+
+@keyframes blink {
+   from { opacity: 1; }
+   to { opacity: .1; }
+}

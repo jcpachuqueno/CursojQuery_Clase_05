@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: Helvetica, Arial, sans-serif;
+}
+
+#container {
+    max-width: 1024px;
+    width: 90%;
+}
+
+#parpadear {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    display: block;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(20, 10, 10);
+    color: white;
+    font-size: 62px;
+    text-align: center;
+}

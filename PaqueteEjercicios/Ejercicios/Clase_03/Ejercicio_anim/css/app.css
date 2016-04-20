@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #A54;
+}
+
+#container {
+    max-width: 1024px;
+    width: 90%;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    height: 295vh; 
+    position: relative;
+}
+
+#cuadro {
+    width: 50px;
+    height: 50px;
+    background: rgb(120, 200, 240);
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+
+#vertical {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: rgb(240, 230, 120);
+    bottom: 0;
+}
+
+#horizontal {
+    position: absolute;
+    width: 30px;
+    height: 100px;
+    background: rgb(240, 160, 200);
+    right: 0;
+    bottom: 0;
+}

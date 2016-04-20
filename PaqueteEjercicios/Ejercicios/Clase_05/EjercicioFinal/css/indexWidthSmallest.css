@@ -1,0 +1,26 @@
+#nav {
+    display: block;
+}
+
+header #logoContainer {
+    width: 46%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#valores div {
+    width: 90%;
+    font-size: 1.2em;
+}
+
+#valores {
+    display: block;
+    margin-top: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#profesional {
+    text-align: center;
+}

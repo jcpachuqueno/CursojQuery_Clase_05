@@ -1,0 +1,110 @@
+#nav ul li {
+    width: 90%;
+    padding: 0;
+    display: block;
+    margin: 0;
+    margin-top: 8px;
+}
+
+#nav ul li a {
+    margin-left: 10px;
+}
+
+.empresa-div .fondo-full {
+    height: 185%;
+}
+
+.data-div .info-container {
+    display: block;
+}
+
+.data-div .info-container .info-image {
+    margin: 0 auto;
+}
+
+.data-div .info-container .info {
+    border-left: 0px solid rgb(47, 60, 70);
+    margin-top: 10vh;
+    font-size: 18px;
+}
+
+.data-div:nth-child(odd) .info-container .info {
+    border-left: 0px solid rgb(240, 240, 240);
+}
+
+.info-container .info .info-titulo {
+    text-align: center;
+}
+
+.info-data-container {
+    padding: 10px;
+}
+
+#mensaje {
+    font-size: 1em;
+}
+
+#areasContainer {
+    margin-top: 5vh;
+    display: block;
+}
+
+#areas {
+    height: auto;
+}
+
+.area-cuadro {
+    width: 90%;
+    max-width: 90%;
+    height: 130px;
+    margin: 0 auto;
+    font-size: 1.8em;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.area-cuadro img {
+    max-width: 90px;
+}
+
+#areas .fondo-full {
+    height: 260vh;
+}
+
+.info-data-container .info-data {
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.area-cuadro img {
+    padding: 20px;
+}
+
+.data-title {
+    height: 210px;
+    font-size: 3em;
+    padding-top: 30px;
+}
+
+.data-title p {
+    width: 80%;
+    border-bottom: 3px solid #444 !important;
+}
+
+.footer-section {
+    max-width: 320px;
+    width: 58%;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #444;
+}
+
+footer .fondo-full {
+
+    min-height: 120vh;
+}

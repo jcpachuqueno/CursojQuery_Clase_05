@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(250, 250, 250);
+    font-family: 'Oxygen', sans-serif;
+}
+
+#container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    max-width: 1024px;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+#menuContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(248, 248, 248, 0);
+    /*background: lightcoral;*/
+    height: 70px;
+    z-index: 100;    
+    /*border-bottom: 2px solid lightblue;*/
+    transition: all .4s ease-in-out;    
+    background: linear-gradient(rgba(43, 43, 43, .7), rgba(40, 60, 80, .1));
+}
+
+#logoContainer {
+    width: 40px;
+    display: inline-block;
+    float: left;
+    margin-right: 3%;
+}
+
+#logoContainer img {
+    width: 98%;
+}
+
+
+.menu {
+    display: inline-block;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.menu ul li a {
+    color: #EEE;
+    color: lightcoral;
+    line-height: 60px;
+    height: 60px;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: rgba(240, 100, 160, .8);    
+}
+
+.nav-li-activo a {
+    text-decoration: underline;
+}
+
+.menu-activado {
+    background: rgba(248, 248, 248, 1) !important;
+    border-bottom: 2px solid lightblue;
+}
+
+.menu-inactivo {
+    overflow: hidden;
+    height: 10px!important;
+}
+
+#menuData {
+    opacity: 1;
+}
+
+.menu-inactivo #menuData {
+    opacity: 0;
+    
+    transition: opacity .4s ease-in-out;
+}
+
+#explorar {
+    border: 2px solid lightcoral;   
+    border-radius: 7px;
+}
+
+#explorar a {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#explorar:hover {
+    background: lightcoral;
+    color: rgb(40, 60, 80);
+}
+
+#explorar:hover a {
+    color: rgb(40, 60, 80);
+}
+
+#login {
+    float: right;
+}
+
+#liSignUp {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    overflow: hidden;
+    float: right;    
+}
+
+#liSignUp a {
+    line-height: 60px;
+}
+
+#signUp {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#contenido {
+}
+
+#portada {    
+    background: rgb(40, 60, 80);
+    padding-top: 220px;
+    padding-bottom: 100px;
+    color: floralwhite;
+}
+
+#portada h1 {
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#portada .button {
+    width: 160px;
+    height: 35px;
+    border-radius: 8px;
+    background: rgb(230, 100, 100);
+    text-align: center;
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#portada .button:hover {
+    background: rgb(250, 100, 140);
+}
+
+#portada p {
+    color: lightcoral;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+    border-top: 4px solid lightblue;
+    padding-top: 20px;
+}
+
+.articulo {
+    height: 100vh;
+    color:  rgb(40, 60, 80);
+}
+
+.articulo .wrapper {
+    padding-top: 10%;
+}
+
+.articulo .wrapper h2 {
+    font-size: 28px;
+    margin-left: 5%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: lightcoral;
+    margin-bottom: 3%;
+}
+
+.articulo .wrapper p {
+    max-width: 520px;
+    width: 70%;
+    margin: 0 auto;
+    border-left: 2px solid lightblue;
+    padding-left: 8px;
+    padding-bottom: 13px;
+    padding-top: 10px;    
+}
+
+.articulo p {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#ancla {
+    position: fixed;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: orange;
+    opacity: 0;
+}
